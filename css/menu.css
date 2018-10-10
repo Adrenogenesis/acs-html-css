@@ -6,16 +6,17 @@ ul {
 	width: 1920px;
 	height: 92px;
 	list-style-type: none;
-    margin: 0;
-   	padding: 0;
+	padding: 0;
 	overflow: hidden;
+	line-height: 60px;  
 }
 
 li {
     float: right;
     width: 152px;
-    height: 92px;
-    }
+	height: 92px;
+	vertical-align: middle;
+	    }
 
 li a {
 	display: block;
@@ -32,7 +33,6 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #CFFFFF;
-	color: black;
+    background-color: rgb(146, 0, 24);
+	color: white;
 }
-

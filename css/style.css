@@ -21,7 +21,7 @@ p {
 }
 
 .nav1 {
-	width: auto;
+	width: 1920px;
 	position: relative;
 	margin-bottom: 0%;
 	display: inline-block;
@@ -269,7 +269,11 @@ p {
 
 .nt-pe {
 	position: relative;
-	padding-top: 130px;
+	padding-top: 170px;
 	margin-left: 0%;
 } 
 
+.der {
+	margin-top: -300px;
+	margin-left: 20%;
+}
