@@ -1,0 +1,42 @@
+li a:hover { 
+    background-color: rebeccapurple;
+}
+
+ul {
+	width: 1920px;
+	height: 92px;
+	list-style-type: none;
+    margin: 0;
+   	padding: 0;
+	overflow: hidden;
+}
+
+li {
+    float: right;
+    width: 152px;
+    height: 92px;
+    }
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	font-size: 13px;
+	height: 92px;
+}
+
+li a:hover:not(.active) {
+	background-color: #0000;
+}
+
+.active {
+    background-color: #CFFFFF;
+	color: black;
+}
+
+.mn {
+    
+
+}

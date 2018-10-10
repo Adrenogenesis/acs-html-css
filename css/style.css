@@ -1,0 +1,279 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, {
+	width: 1920px;
+	height: auto;
+	/* to centre page on screen*/
+	margin-left: auto;
+	align-self: center;
+}
+
+p {
+	text-align: center; 
+}
+
+.cont {
+	height: auto;
+	width: auto;
+}
+
+.nav1 {
+	width: auto;
+	position: relative;
+	margin-bottom: 0%;
+	display: inline-block;
+	padding-bottom: 0px;
+	background-image: url(../img/nav1.png);
+
+}
+
+.acs {
+	height: 45px;
+	width: 175px;
+	position: absolute;
+	top: 10px;
+	left: 352px;
+}
+
+.img {
+	width: 100%;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+
+.insc {
+	height: 92px;
+	width: 152px;
+	position: absolute;
+	top: 0px;
+	right: 350px;
+	
+}
+
+.headerimg {
+	margin-top: 0%;
+	
+}
+
+.dev1 {
+	height: 51;
+	width: 875;
+	text-align: center;
+	font-size: 51px;
+	position: absolute;
+	top: 400px;
+	left: 550px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+.button3 {
+	height: 53;
+	width: 203;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 661px;
+	left: 888px;
+	text-indent: 0px;
+}
+
+.fm-nu {
+	height: 34px;
+	width: 1024px;
+	top: 1050px;
+	left: 450px;
+	text-align: center;
+	font-size: 34px;
+	position: absolute;
+}
+
+.lgnum {
+
+	height: 146px;
+	width: 459px;
+	top: 1250px;
+	left: 1100px;
+	text-align: center;
+	position: absolute;
+	font-size: 14px;
+}
+
+.lgnuml {
+	height: 146px;
+	width: 459px;
+	top: 1246px;
+	left: 298px;
+	text-align: center;
+	position: absolute;
+	font-size: 14px;
+}
+
+.ens {
+	height: 29px;
+	width: 805px;
+	top: 1521px;
+	left: 554px;
+	text-align: center;
+	position: absolute;
+	font-size: 29px;
+	color: rgb(255, 255, 255);
+}
+
+.fqa {
+	height: 68px;
+	width: 1103px;
+	font-size: 37px;
+	text-align: center;
+	position: absolute;
+	top: 500px;
+	left: 550px;
+	background-color: #FFFFFF;
+	opacity: 0.1;
+	
+	}
+
+.trans {
+	height: 37px;
+	width: 1026px;
+	font-size: 37px;
+	position: absolute;
+	text-align: center;
+	top: 515px;
+	left: 568px;
+	color: #FFFFFF;
+	z-index: 9;
+	}
+
+.ensv {
+	position: absolute;
+	left: 66px;
+	top: 18px;
+	
+}
+
+.logo {
+	position: absolute;
+	left: 822px;
+	top: 1184px;
+	height: auto;
+	width: auto;
+}
+
+.icons {
+	position: absolute;
+	left: 382px;
+	top: 1673px;
+}
+
+.vignettes1 {
+	position: absolute;
+	left: 602px;
+	top: 1670px;
+}
+
+.vignettes2 {
+	position: absolute;
+	left: 1378px;
+	top: 1726px;
+}
+
+.vignettes3 {
+	position: absolute;
+	left: 1021px;
+	top: 1729px;
+}
+
+.vignettes4 {
+	position: absolute;
+	left: 818px;
+	top: 1667px;
+}
+
+.video {
+	position: absolute;
+	left: 1198px;
+	top: 2045px;
+}
+
+.txtvid {
+	position: absolute;
+	color: #FFFFFF;
+	left: 450px;
+	top: 2000px;
+}
+
+.logo-access {
+	position: absolute;
+	left: 1420px;
+	top: 5632px;
+	
+}
+
+.pics {
+	position: absolute;
+	left: 219px;
+	top: 3348px;
+}
+
+.flex-container {
+	display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+	background-color: #0f0000;
+	width: 500px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+  }
+
+.projet {
+	position: absolute;
+	left: 147px;
+	top: 2566px;
+}
+
+.formt {
+	position: absolute;
+	font-size: 36px;
+	color: #FFFFFF;
+	left: 508px;
+	top: 3103px;
+}
+
+.ncf {
+	position: absolute;
+	font-size: 36px;
+	color:rgb(0, 0, 0);
+	left: 153px;
+	top: 3334px;
+	z-index: 99;
+}
+
+.icontxt1 {
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	left: 267px;
+	top: 1833px;
+}
+
+.nt-pe {
+	position: relative;
+	padding-top: 130px;
+	margin-left: 0%;
+} 
+
+.flextxt {
+	position: absolute;
+	width: 1000px;
+}
