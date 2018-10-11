@@ -54,16 +54,20 @@ p {
 }
 
 .headerimg {
+	position: relative;
 	margin-top: 0%;
+	width: 1920px;
+	height: 900px;
+	background-image: url(../img/header.png);
 	
 }
 
 .dev1 {
 	height: 51;
 	width: 875;
+	padding: 260px;
 	text-align: center;
 	font-size: 51px;
-	position: absolute;
 	top: 400px;
 	left: 550px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -71,27 +75,35 @@ p {
 }
 
 .button3 {
-	height: 53;
-	width: 203;
-	font-size: 15px;
+	height: 53px;
+	width: 203px;
+	margin-left: 47%;
+	padding-top: 40px;
+	font-size: 25px;
 	text-align: center;
+	line-height: 0;
+	display: flex;
 	vertical-align: middle;
+	justify-content: center;
 	color: rgb(255, 255, 255);
-	position: absolute;
-	top: 661px;
-	left: 888px;
-	text-indent: 0px;
+	background-image: url(../img/button3a.png);
+	background-position-y: 10px;
+	background-repeat: no-repeat;
 }
+
+a:link    {
+	/* Applies to all unvisited links */
+	text-decoration:  none;
+	} 
 
 .fm-nu {
 	height: 34px;
 	width: 1024px;
-	top: 1050px;
-	left: 450px;
 	text-align: center;
 	font-size: 34px;
-	position: absolute;
-}
+	padding-left: 25%;
+	padding-top: 50px;
+	}
 
 .lgnum {
 
@@ -123,6 +135,7 @@ p {
 	position: absolute;
 	font-size: 29px;
 	color: rgb(255, 255, 255);
+	z-index: 99;
 }
 
 .fqa {
@@ -141,26 +154,24 @@ p {
 .trans {
 	height: 37px;
 	width: 1026px;
-	font-size: 37px;
-	position: absolute;
+	padding:-120px;
+	font-size: 30px;
+	margin-left: 13%;
 	text-align: center;
-	top: 515px;
-	left: 568px;
 	color: #FFFFFF;
-	z-index: 9;
-	}
+	background-color: #FFFFFF;
+	opacity: 0.2;
+		}
 
-.ensv {
-	position: absolute;
-	left: 66px;
-	top: 18px;
-	
-}
+.transxt {
+		z-index: 99;
+		color: #FFFFFF;
+		opacity: 1;
+} 
 
 .logo {
-	position: absolute;
-	left: 822px;
-	top: 1184px;
+	margin-left: 45%;
+	padding-top: 140px;
 	height: auto;
 	width: auto;
 }
@@ -196,9 +207,8 @@ p {
 }
 
 .video {
-	position: absolute;
-	left: 1198px;
-	top: 2045px;
+	margin-left: 60%;
+	padding-top: 130px;
 }
 
 .txtvid {
@@ -237,9 +247,9 @@ p {
   }
 
 .projet {
-	position: absolute;
-	left: 147px;
-	top: 2566px;
+	margin-left: 10%;
+	padding-top: 50px;
+	
 }
 
 .formt {
@@ -269,11 +279,82 @@ p {
 
 .nt-pe {
 	position: relative;
-	padding-top: 170px;
-	margin-left: 0%;
+	width: 1920px;
+	height: 580px;
+	background-image: url(../img/notrepedagogie.png);
 } 
 
 .der {
 	margin-top: -300px;
 	margin-left: 20%;
+}
+
+.bfx1 {
+	width: 100px;
+	float: left;
+}
+
+.gen {
+	width: 1920px;
+	height: 484px;
+	background-image: url(../img/gen.png);
+	position: relative;
+}
+
+.pr-col {
+	width: 1920px;
+	height: 445px;
+	background-image: url(../img/projet-collaboratif-bg.png);
+	position: relative;
+
+}
+
+.pr-bg {
+	width: 1920px;
+	height: 456px;
+	background-image: url(../img/projet-bg.png);
+	position: relative;
+}
+
+.pr-bg1 {
+	width: 1920px;
+	height: 300px;
+	background-image: url(../img/projet-bg1.png);
+	position: relative;
+}
+
+.ns-ct {
+	width: 1920px;
+	height: 844px;
+	background-image: url(../img/nos-centres-bg.png);
+	position: relative;
+
+}
+
+.tm-bg {
+	width: 1920px;
+	height: 609px;
+	background-image: url(../img/temoignages-bg.png);
+	position: relative;
+}
+
+.ct-bg {
+	width: 1920px;
+	height: 807px;
+	background-image: url(../img/contact-bg.png);
+	position: relative;
+}
+
+.logo1 {
+	width: 1920px;
+	height: 256px;
+	background-image: url(../img/logo.png);
+	position: relative;
+}
+
+.ft {
+	width: 1920px;
+	height: 162px;
+	background-image: url(../img/footer-bg.png);
+	position: relative;
 }

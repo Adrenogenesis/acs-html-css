@@ -10,7 +10,6 @@ body { margin: 0; background: white; }
 	display: -webkit-box;
 	display: flex;
 	margin-left: 10%;
-	margin-top: -448px;
 	padding-bottom: .5vw;
 	padding-left: .5vw;
 	padding-right: .5vw;
@@ -34,8 +33,10 @@ body { margin: 0; background: white; }
 }
 
 .box.flex {
+  width: 200px;
   display: flex;
-	justify-content: center;
+  justify-content: center;
+  margin-left: 45%;
 
 }
 
