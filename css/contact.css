@@ -1,0 +1,45 @@
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    }
+
+input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+input[type=box] {
+    width: 40%;
+    height: 100px;
+    margin: -16px 0;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+   }
+
+  .input {
+      color: #FFFF;
+  } 
+
+  ::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:white;
+}

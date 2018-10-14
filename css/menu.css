@@ -6,9 +6,12 @@ ul {
 	width: 1920px;
 	height: 92px;
 	list-style-type: none;
-	padding: 0;
 	overflow: hidden;
-	line-height: 60px;  
+	line-height: 60px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0px;
 }
 
 li {
