@@ -17,21 +17,32 @@ input[type=email] {
     border-bottom: 2px solid white;
     background-color: transparent;
 }
-
-input[type=box] {
-    width: 40%;
-    height: 100px;
+textarea {
+    width: 60%;
+    height: 150px;
     margin: -16px 0;
     border: 2px solid white;
     border-radius: 4px;
     background-color: transparent;
    }
 
-  .input {
-      color: #FFFF;
-  } 
+ input[type=submit] {
+    margin-left: 30%
+   }
 
-  ::placeholder {
+.button {
+    display: inline-block;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    color: purple;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+   ::placeholder {
     color: white;
     opacity: 1; /* Firefox */
 }

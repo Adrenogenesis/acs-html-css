@@ -32,33 +32,6 @@ body { margin: 0; background: white; }
   
 }
 
-.box.flex {
-	padding-top: 40px;
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: auto;
-
-}
-
-.box {
-  padding: .5rem;
-  height: 100px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
-  border-radius: 4px;
-  color: white;
-  font-family: "Lucida Console", Monaco, monospace;
-  
- 
-}
-
-.box p {
-  max-width: 1125px;
-  text-align: center;
-  margin: 60px;
-  padding: .25rem;
-}
-
 .flex-container {
     display: flex;
     justify-content: center;
